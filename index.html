@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Creato</title>
+</head>
+
+<body>
+ <!-- CSS only -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+ <link rel="stylesheet" href="/css/main.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+ <!--NAVBAR START-->
+ <nav class="navbar navbar-expand-lg bg-light py-4">
+  <div class="container-fluid d-flex">
+   <a class="navbar-brand fs-5 fw-bold" href="#">Creato</a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+    aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse d-lg-flex justify-content-center align-items-center" id="navbarMenu">
+    <ul class="navbar-nav  ms-auto  mb-lg-0">
+     <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Home</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">Find A Job</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">Post Job</a>
+     </li>
+    </ul>
+    <div class="d-flex ms-auto">
+     <a class="nav-link mt-2 me-4" href="#">Login</a>
+     <button class="btn nav-btn me-2" type="button">Post A Job</button>
+    </div>
+   </div>
+  </div>
+ </nav>
+
+ <!--NAVBAR END-->
+ <!--HERO START-->
+ <div class="container-fluid  mt-5 hero-container">
+  <div class="row">
+   <div class="col-6">
+    <div class="hero__text pt-3 pt-sm-0">
+     <h1 class="fw-bold">Let's Find Your Dream Job Here </h1>
+     <div class="hero__paragraph pt-2">
+      <p>The easiest way to get your dream job, create trackable resumes and enrich your application. Employer will find
+       you.</p>
+     </div>
+    </div>
+    <div class="row hero__cta d-flex">
+     <div class="col-4">
+      <h6>Title</h6>
+      <div class="input-group mb-3 border-0">
+       <input type="text" class="form-control" placeholder="Enter job title "
+        aria-label="Example text with button addon" aria-describedby="button-addon1">
+      </div>
+     </div>
+     <div class="col-4">
+      <h6>Location</h6>
+      <div class="input-group mb-3 border-0">
+       <input type="text" class="form-control" placeholder="Enter Location" aria-label="Example text with button addon"
+        aria-describedby="button-addon1">
+      </div>
+     </div>
+     <div class="col-4">
+      <button class="btn  mt-4  btn-search"> <i class="bi bi-search"></i>Search</button>
+     </div>
+    </div>
+    <div class="container mt-3 fw-bold">
+     <h5>We are trusted by:</h5>
+     <div class="d-flex mt-3">
+      <img src="/img/Instagram-Logo.wine.png" alt="" class="img-fluid logo-img">
+      <img src="/img/LinkedIn-Icon-Logo.wine.png" alt="" class="img-fluid logo-img">
+      <img src="/img/Twitter-Logo.wine.png" alt="" class="img-fluid logo-img">
+      <img src="/img/Google-Logo.wine.png" alt="" class="img-fluid logo-img">
+     </div>
+    </div>
+   </div>
+
+   <div class="col-6">
+    <img src="/img/hero-1.jpg" alt="" class="img-fluid hero-img" width="640" height="500">
+   </div>
+  </div>
+
+
+ </div>
+
+ <!--HERO END-->
+
+ <!--SECTION ONE START-->
+ <section class="section__one">
+  <div class=" d-flex justify-content-center ">
+   <h2> Easy way to get your next job</h2>
+  </div>
+  <div class="container-fluid">
+   <div class="row mt-5">
+    <div class="col-sm-6 col-lg-4">
+     <div div class="card section__card px-4 py-3" style="width: 18rem;">
+      <div class="card-icon my-2">
+       <i class="px-2 py-2 text-white icon-blue bi bi-person-fill"></i>
+      </div>
+      <div class="card-body p-0">
+       <h5 class="card-title">Register an account</h5>
+       <p class="card-text">First you have to create and account here</p>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+     <div class="card section__card px-4 py-3" style="width: 18rem;">
+      <div class="card-icon my-2">
+       <i class="px-2 py-2 text-white icon-orange bi bi-bag-check-fill"></i>
+      </div>
+      <div class="card-body p-0">
+       <h5 class="card-title">Search your job</h5>
+       <p class="card-text">Select the position you wish to apply</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mt-sm-4 mt-lg-0">
+     <div class="card section__card px-4 py-3" style="width: 18rem;">
+      <div class="card-icon my-2">
+       <i class="px-2 py-2 text-white icon-purple bi bi-card-checklist"></i>
+      </div>
+      <div class="card-body p-0">
+       <h5 class="card-title">Apply for jobs</h5>
+       <p class="card-text">Finally apply for jobs and enjoy your work</p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+ <!--SECTION ONE END-->
+
+ <!--SECTION TWO START-->
+ <section class="section__two container-xxl">
+  <div class="row">
+   <div class="col-12 col-md-6 d-sm-flex justify-content-sm-center">
+    <img src="/img/section-2.jpg" alt="woman searching for job on the computer" class="img-fluid section-img">
+   </div>
+   <div class="col-12 col-md-6 mt-5 align-self-center justify-content-sm-center">
+    <div class="section__two-text">
+     <h2>We provide a place you can get a trusted job.</h2>
+     <p class="pt-3">It is long established that a reader will be distracted by the readable content of a page when it
+      is long.</p>
+    </div>
+    <div class="row section__two-box">
+     <div class="col-6">
+      <span class="fw-bold section__two-figure">10k</span>
+      <p>Active users</p>
+      <p class="section__two-overview">On website</p>
+     </div>
+     <div class="col-6">
+      <span class="fw-bold section__two-figure">4.7</span>
+      <p>950 Rating</p>
+      <p class="section__two-overview">Dreamjob Community</p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+ <!--SECTION TWO END-->
+ <section class="main">
+  <!--SECTION THREE START-->
+  <section class="container section__three pt-5">
+   <div class="row ">
+    <div class="col-12 col-md-6 section__three-one">
+     <h2>Millions of employers</h2>
+     <h2>Let's find your suit.</h2>
+     <p class="pt-3">It is long established that a reader will be distracted by the readable content of a page when it
+      is long.
+     </p>
+     <p>It is long established that a reader will be distracted by the readable content of a page when it is
+      long.
+     </p>
+     <button class="btn nav-btn section__three-btn mt-2 mt-lg-4 mt-md-">Post A Job</button>
+
+    </div>
+    <div class="col-12 col-md-6">
+     <h3>Find a job</h3>
+     <p>There a millions of job for you to explore. Take it and make it happen</p>
+     <div class="input-group flex-nowrap">
+      <span class="input-group-text border border-right-0" id="addon-wrapping"><i class="bi bi-search"></i></span>
+      <input type="text" class="form-control " placeholder="Job title or keyword" aria-label="Username">
+     </div>
+     <div class="input-group flex-nowrap mt-3">
+      <span class="input-group-text border border-right-0" id="addon-wrapping"><i class="bi bi-globe"></i></span>
+      <input type="text" class="form-control " placeholder="Location" aria-label="Username">
+     </div>
+     <div class="input-group flex-nowrap mt-3">
+      <span class="input-group-text border border-right-0" id="addon-wrapping"><i class="bi bi-person-check"></i></span>
+      <input type="text" class="form-control " placeholder="Specialist" aria-label="Username">
+     </div>
+     <div class="d-grid gap-2 mt-3 section__btn-lg">
+      <button class="btn section__btn-lg nav-btn " type="button">Search</button>
+     </div>
+    </div>
+   </div>
+  </section>
+
+  <!--SECTION THREE END-->
+
+  <!--SECTION FOUR START-->
+  <section class="container section__four">
+   <div class=" d-flex justify-content-center ">
+    <h2> Find the job that qualifies your life
+    </h2>
+   </div>
+   <div class="row mt-5">
+    <div class="row">
+     <div class="col-lg-4 col-12">
+      <div class="d-flex">
+       <div class="section__four-first">
+        <h6 class="fw-bold">Senior UX Designer</h6>
+        <p><i class="bi bi-bag-check"></i> 2-3 years experience</p>
+        <p><i class="bi bi-geo-alt"></i> Los Angeles, Califonia, USA</p>
+       </div>
+       <div class="section__four-second">
+        <p class="section__four-fulltime">Fulltime</p>
+       </div>
+      </div>
+      <div class="d-flex mt-lg-5 section__four-firm">
+       <img src="/img/Google-Logo-2.png" alt="" class="img-fluid section__four-img">
+       <div class="section__four-google ">
+        <h6>Google Ltd</h6>
+        <p>12 hours ago</p>
+       </div>
+      </div>
+      <div class="d-flex mt-lg-5 section__four-firm">
+       <div class="section__four-first">
+        <h6 class="fw-bold">Graphic Designer</h6>
+        <p><i class="bi bi-bag-check"></i> 2-3 years experience</p>
+        <p><i class="bi bi-geo-alt"></i> Los Angeles, Califonia, USA</p>
+       </div>
+       <div class="section__four-second">
+        <p class="section__four-fulltime">Fulltime</p>
+       </div>
+      </div>
+      <div class="d-flex mt-lg-5 section__four-firm">
+       <img src="/img/Linkedin-2.png" alt="" class="img-fluid section__four-img">
+       <div class="section__four-google ">
+        <h6>Linkedin Co.</h6>
+        <p>6 days ago</p>
+       </div>
+      </div>
+
+     </div>
+
+     <div class="col-lg-4 col-12">
+      <div class="d-flex">
+       <div class="section__four-first">
+        <h6 class="fw-bold">Senior UX Designer</h6>
+        <p><i class="bi bi-bag-check"></i> 2-3 years experience</p>
+        <p><i class="bi bi-geo-alt"></i> Los Angeles, Califonia, USA</p>
+       </div>
+       <div class="section__four-second">
+        <p class="section__four-fulltime">Fulltime</p>
+       </div>
+      </div>
+      <div class="d-flex mt-lg-5 section__four-firm">
+       <img src="/img/behance-1-logo-.png" alt="" class="img-fluid section__four-img">
+       <div class="section__four-google ">
+        <h6>Behance.net</h6>
+        <p>2 days ago</p>
+       </div>
+       <button class="btn btn-sm section__four-btn" type="button">Apply Now</button>
+      </div>
+      <div class="d-flex mt-lg-5 section__four-firm">
+       <div class="section__four-first">
+        <h6 class="fw-bold">Social Media Expert</h6>
+        <p><i class="bi bi-bag-check"></i> 2-3 years experience</p>
+        <p><i class="bi bi-geo-alt"></i> Los Angeles, Califonia, USA</p>
+       </div>
+       <div class="section__four-second">
+        <p class="section__four-fulltime">Remote Job</p>
+       </div>
+      </div>
+      <div class="d-flex mt-lg-5 section__four-firm">
+       <img src="/img/linstagram-2.png" alt="" class="img-fluid section__four-img">
+       <div class="section__four-google ">
+        <h6>Instagram USA</h6>
+        <p>1 month ago</p>
+       </div>
+      </div>
+
+     </div>
+
+
+     <div class="col-4">
+      <div class="d-flex">
+       <div class="section__four-first">
+        <h6 class="fw-bold">Marketing Manager</h6>
+        <p><i class="bi bi-bag-check"></i> 2-3 years experience</p>
+        <p><i class="bi bi-geo-alt"></i> Los Angeles, Califonia, USA</p>
+       </div>
+       <div class="section__four-second">
+        <p class="section__four-fulltime">Fulltime</p>
+       </div>
+      </div>
+      <div class="d-flex mt-lg-5 section__four-firm">
+       <img src="/img/dribbble-logo.png" alt="" class="img-fluid section__four-img">
+       <div class="section__four-google ">
+        <h6>Dribble.com</h6>
+        <p>4 days ago</p>
+       </div>
+      </div>
+      <div class="section__four-stats">
+       <span class="section__four-figure">15k</span>
+       <div class="section__four-overview">
+        <p>Explore all job</p>
+       </div>
+
+      </div>
+
+     </div>
+    </div>
+
+   </div>
+   </div>
+  </section>
+  <!--SECTION FOUR END-->
+
+  <!--SECTION FIVE START-->
+  <section class="section__five container">
+   <div class="row">
+    <div class="col-12 col-md-6 d-sm-flex justify-content-sm-center">
+     <img src="/img/interview-2.jpg" alt="" class="img-fluid">
+    </div>
+    <div class="col-12 col-md-6  mt-5">
+     <div class="section__five-text">
+      <h2>Trusted by thousands of happy employee.</h2>
+      <p class="pt-3">This is the best job searching website I have ever seen. I found my dream job through this site.
+       Come and grab the golden opportunity.</p>
+     </div>
+     <div class="section__five-review">
+      <span class="fw-bold">Alex Carry JR.</span> <span>UI Designer</span>
+      <div class="row g-4">
+       <div class="section__five-rating d-flex col-6">
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+       </div>
+       <div class="section__two-arrow col-6 d-flex ">
+        <button class="btn btn-arrow"><i class="bi bi-arrow-left"></i></button>
+        <button class="btn btn-arrow"><i class="bi bi-arrow-right"></i></button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!--SECTION FIVE END-->
+
+  <!--SECTION SIX START-->
+  <div class="container section__six">
+   <h2 class="fw-bold d-flex justify-content-center">
+    Let the employers find you
+   </h2>
+   <div class="d-flex justify-content-center mt-4">
+    <button class="btn nav-btn">Sign up for free</button>
+   </div>
+   <div class="mt-4">
+    <div class="d-flex justify-content-center mt-4">
+     <button class="btn border-0"><i class="bi bi-upload"></i></button>
+    </div>
+    <div class="section__six-upload d-flex justify-content-center">
+     <button class="btn border-top border-start border-end">Upload your cv</button>
+    </div>
+   </div>
+  </div>
+  <!--SECTION SIX END-->
+
+  <!--FOOTER START-->
+  <div class="container footer">
+   <div class="row">
+    <div class="col-3">
+     <h6> CONTACT</h6>
+     <p class="fw-bold footer__email">dreamospace@gmail.com</p>
+     <div class="d-flex">
+      <i class="bi bi-facebook"></i>
+      <i class="bi bi-twitter"></i>
+      <i class="bi bi-youtube"></i>
+     </div>
+    </div>
+    <div class="col-3">
+     <h6 class="fw-bold">Navigation</h6>
+     <div class="mt-3">
+      <ul class="list-unstyled">
+       <li class="nav-item"><a href="#" class="nav-link">Find a job</a></li>
+       <li class="nav-item"><a href="#" class="nav-link">Post a job</a></li>
+       <li class="nav-item"><a href="#" class="nav-link">Find Companies</a></li>
+       <li class="nav-item"><a href="#" class="nav-link">Career advice</a></li>
+      </ul>
+     </div>
+    </div>
+    <div class="col-3">
+     <h6 class="fw-bold">Company</h6>
+     <div class="mt-3">
+      <ul class="list-unstyled">
+       <li class="nav-item"><a href="#" class="nav-link">The team</a></li>
+       <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+       <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+       <li class="nav-item"><a href="#" class="nav-link">Press</a></li>
+      </ul>
+     </div>
+    </div>
+    <div class="col-3">
+     <h6 class="fw-bold">Resources</h6>
+     <div class="mt-3">
+      <ul class="list-unstyled">
+       <li class="nav-item"><a href="#" class="nav-link">Support</a></li>
+       <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+       <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+       <li class="nav-item"><a href="#" class="nav-link">Helpful resources</a></li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--FOOTER END-->
+ </section>
+
+ <div class="footer__copyright container-fluid d-flex justify-content-center align-items-center py-4 text-white">
+  <p>&copy; 2022 Creato All Rights Reserved Designed by Dremospace</p>
+ </div>
+
+ <!-- JavaScript Bundle with Popper -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+
+</html>
