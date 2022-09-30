@@ -20,8 +20,9 @@
 }
 
 .btn-arrow {
-    padding:0px 6px;
-    margin-top: -5px;
+    padding:3px 7px;
+    font-size: 10px;
+    margin-top: -2px;
     margin-left: 10px;
     border-radius: 50%;
     color: #fff;
@@ -63,41 +64,8 @@
     color: #fff;
     border: 1px solid #866cf2;
 }
-/*
-@media (max-width:576px) {
-    .hero-img {
-        margin-top: 3rem;
-
-    }
-
-@media (min-width:768px) {
-    .hero__text h1 {
-        font-size: 2rem;
-        line-height: 1;
-    }
-    .hero__paragraph {
-        padding-top: 1rem;
-        font-size: 1rem;
-    }
-
-    .hero__cta {
-        width: 100%;
-    }
-}
 
 
-@media (max-width:767px) {
-    .btn-search {
-        font-size: 15.5px;
-        padding-right: 8px;
-    }
-}
-@media (max-width:576px) {
-    .btn-search {
-        font-size: 10.5px;
-        
-    }
-}*/
 /*SECTION ONE*/
 
 .section__one {
@@ -128,12 +96,7 @@
 .card-title {
     font-weight: 500;
 }
-/*
-@media (min-width:325px) {
-    .section__card {
-        padding: 3rem 2rem;
-}
-*/
+
 /*SECTION TWO*/
 .section__two {
     margin-top: 7rem;
@@ -155,38 +118,14 @@
 .main {
     background-image: linear-gradient(to right, #dfdfdf 20%, #ffffff);
 }
-/*
-@media (min-width:575px) {
-    .section__two-box {
-        margin: 0 auto;
-    }
 
-    .section__two-overview {
-        font-size: 14px;
-    }
-}
-*/
 
 /*SECTION THREE*/
 
 .section__three {
     margin-top: 5rem;
 }
-/*
-@media (min-width:880px) {
-    .section__three-btn {
-        margin-top: 5px;
-    }
 
-    .section__btn-lg {
-        margin-top: 15px
-    }
-}
-@media (min-width:575px) {
-    .section__three-one {
-        margin-bottom: 2rem;
-    }
-*/
 /*SECTION FOUR*/
 
 .section__four {
@@ -243,32 +182,7 @@
     border-bottom: 1px solid var(--primary-color);
 }
 
-/*
-@media (max-width:991px) {
-    .section__four h6 {
-        font-size: 12px;
-    }
-    .section__four p {
-            font-size: 12px;
-        }
-    .section__four-img {
-        width: 30px;
-        height: 30px;
-    }
 
-    .section__four-btn {
-        display: none;
-        }
-    .section__four-firm {
-        margin-top: 5px;
-    }
-
-    .section__four-stats {
-        margin-top: 3rem;
-        margin-left: 3rem;
-        }
-}
-*/
 
 /*SECTION-FIVE*/
 .section__five {
@@ -316,14 +230,3 @@
 -webkit-clip-path: polygon(14% 0, 86% 0, 100% 3%, 100% 80%, 0% 80%, 0 3%);
     clip-path: polygon(14% 0, 86% 0, 100% 3%, 100% 80%, 0% 80%, 0 3%);
 }
-/*
-@media (min-width:496px) {
-    .footer__email {
-        font-size: 8px;
-    }
-}
-@media (min-width:1024px) {
-    .footer__email {
-        font-size: 12px;
-    }
-}*/
